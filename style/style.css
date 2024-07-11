@@ -21,9 +21,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    margin-bottom: 15px;
-
-
+    margin-bottom: 86px;
 }
 
 .first-image {
@@ -32,7 +30,6 @@ body {
     justify-content: center;
     align-items: flex-start;
     margin-bottom: 5px;
-
 }
 
 .tx-center {
@@ -63,3 +60,67 @@ body {
     height: 40px;
     color: white;
 }
+
+/* banner section end here */
+
+/* second section style here */
+.parent-section {
+    width: 1140px;
+    height: 1395px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.parent-container-1 {
+    margin: 25px 0;
+}
+
+.parent-container-1>h2 {
+    padding: 15px;
+}
+
+.parent-container-1>p {
+    margin: auto;
+}
+
+.parent-container-2 {
+    display: flex;
+    margin: 35px 50px;
+    background-image: linear-gradient(white, #f9fafb);
+    height: 350px;
+    border-radius: 9px;
+
+}
+
+.child-one {
+    text-align: left;
+    padding: 40px 60px;
+}
+
+.child-one>h2,
+p {
+    width: 90%;
+    padding-bottom: 20px;
+}
+
+.btn {
+    margin: 55px 0;
+}
+
+.btn>a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 16px 25px;
+    border: 1px solid rgb(0, 0, 0);
+    color: black;
+}
+
+.child-two {
+    padding: 40px 60px;
+}
+
+.middle {
+    display: flex;
+}
+
+/* second section end here */
